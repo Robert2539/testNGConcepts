@@ -1,5 +1,6 @@
 package TestNGStudy.testNGConcepts;
 
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterMethod;
@@ -34,6 +35,7 @@ public class BasicAnnotaions {
 	  public void GetpageTitle(){
 	    System.out.println("Test has been executed as no.5");
 	  }
+	  
 	  @BeforeGroups("IT")
 	    public void beforeGroups(){
 	    	System.out.println("Before groups executed");
